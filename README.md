@@ -81,8 +81,9 @@ Used to delete assigned product from order.
 
 Required parameters within the URI - *order_id*, *product_id*.
 
-![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/DeleteProductFromOrder.png?raw=true)
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/DeleteProductfromOrder.png?raw=true)
 
+  
   
 ## Author
 
