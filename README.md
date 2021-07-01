@@ -74,7 +74,18 @@ Required parameters within the URI - *order_id*, *product_id*.
 
 ## Examples
 
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/CreateOrder.png?raw=true)
+
 ![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/AssignProduct.png?raw=true)
+
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/GetOrder.png?raw=true)
+
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/GetProductsFromOrder.png?raw=true)
+
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/UpdateProduct.png?raw=true)
+
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/DeleteProductFromOrder.png?raw=true)
+
 
   
 ## Author
