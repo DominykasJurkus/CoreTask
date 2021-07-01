@@ -40,12 +40,16 @@ Used to assign a product to the order.
 
 Required parameters within the request body - *order_id*, *product_id*.
 
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/AssignProduct.png?raw=true)
+
 ```bash 
   GET http://127.0.0.1/orders 
 ```
 Used to list all orders and filter them by user_id, email and sort by created_at.
 
 Optional parameters within the URI - *user_id*, *email*, *sort*.
+
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/GetOrder.png?raw=true)
 
 ```bash 
   GET http://127.0.0.1/order/{order_id}
@@ -54,6 +58,8 @@ Optional parameters within the URI - *user_id*, *email*, *sort*.
 Used to show specific order with assigned products.
 
 Required parameter within the URI - *order_id*.
+
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/GetProductsFromOrder.png?raw=true)
 
 ```bash 
   PATCH http://127.0.0.1/product/{product_id}
@@ -65,6 +71,8 @@ Required parameter within the URI - *product_id*.
 
 Optional parameters within the request body - *name*, *amount*.
 
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/UpdateProduct.png?raw=true)
+
 ```bash 
   DELETE http://127.0.0.1/order/{order_id}/product/{product_id}
 ```
@@ -73,22 +81,7 @@ Used to delete assigned product from order.
 
 Required parameters within the URI - *order_id*, *product_id*.
 
-
-## Examples
-
-![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/CreateOrder.png?raw=true)
-
-![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/AssignProduct.png?raw=true)
-
-![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/GetOrder.png?raw=true)
-
-![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/GetProductsFromOrder.png?raw=true)
-
-![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/UpdateProduct.png?raw=true)
-
 ![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/DeleteProductFromOrder.png?raw=true)
-
-
 
   
 ## Author
