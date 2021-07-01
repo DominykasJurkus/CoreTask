@@ -39,7 +39,7 @@ Used to assign a product to the order.
 Required parameters within the request body - *order_id*, *product_id*.
 
 ```bash 
-  GET http://127.0.0.1/order/product  
+  GET http://127.0.0.1/orders 
 ```
 Used to list all orders and filter them by user_id, email and sort by created_at.
 
