@@ -31,6 +31,8 @@ Used to create a new order.
 
 Required parameters within the request body - *user_id*, *title*, *email*.
 
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/CreateOrder.png?raw=true)
+
 ```bash 
  POST http://127.0.0.1/order/product 
 ``` 
