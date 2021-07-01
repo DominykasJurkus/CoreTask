@@ -74,7 +74,7 @@ Required parameters within the URI - *order_id*, *product_id*.
 
 ## Examples
 
-
+![API call](https://github.com/DominykasJurkus/CoreTask/blob/master/Examples/AssignProduct.png?raw=true)
 
   
 ## Author
